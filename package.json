@@ -1,0 +1,19 @@
+{
+  "name": "typescript-workers-lab",
+  "version": "1.0.0",
+  "description": "TypeScript лабораторна робота з робітниками",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc && node dist/main.js",
+    "clean": "if exist dist rmdir /s /q dist"
+  },
+  "keywords": ["typescript", "workers", "lab"],
+  "author": "Valentyn Fedorov",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  }
+}
