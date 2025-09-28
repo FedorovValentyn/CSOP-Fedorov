@@ -1,0 +1,23 @@
+{
+  "name": "typescript-lab2",
+  "version": "1.0.0",
+  "description": "Практична робота №2. Інтерфейси та класи в TypeScript",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc && node dist/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "typescript",
+    "interfaces",
+    "classes",
+    "abstract-classes"
+  ],
+  "author": "Student",
+  "license": "MIT"
+}
